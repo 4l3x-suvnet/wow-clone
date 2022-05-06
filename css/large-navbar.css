@@ -344,3 +344,7 @@
     opacity: 0;
   }
 }
+
+.masthead-content .button-container {
+  width: 100% !important;
+}
