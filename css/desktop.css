@@ -1,0 +1,45 @@
+@media screen and (min-width: 1280px) {
+
+.news-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+}
+
+.socials>div>div>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials {
+    font-family: Semplicita;
+}
+
+.links-container > .links:nth-child(n+2)::before {
+    content: '';
+    display: inline-block;
+    height: 10px;
+    width: 1px;
+    background-color: rgba(255,255,255,.3);
+    margin: 0 15px;
+    pointer-events: none;
+  }
+
+.grid-divider {
+    display: none;
+  }  
+  
+  .stay-connected {
+    display: none;
+  }
+  
+    .sticky {
+      position: relative;
+      z-index: 5;
+    }
+}

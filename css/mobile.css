@@ -1,0 +1,306 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    background: black;
+    font-size: 12px;
+}
+
+.nav {
+    position: relative;
+    z-index: 10;
+}
+
+.compact-navbar {
+    position: relative;
+    width: 100%;
+    height: 48px;
+}
+
+.mobile-nav {
+    position: fixed;
+    width: 100%;
+    background: -webkit-gradient(linear,
+            left top,
+            left bottom,
+            from(#261812),
+            to(#1a0f0b));
+    background: linear-gradient(180deg, #261812 0, #1a0f0b);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid #352011;
+    height: 48px;
+}
+
+.mobile-nav div {
+    padding: 2px 10px 10px 10px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between !important;
+}
+
+html,
+.page,
+body {
+    font-size: 1rem;
+}
+
+.space-around {
+    justify-content: space-around !important;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-nav-icon {
+    color: #00aeff;
+    font-size: 18px;
+}
+
+.icon-override {
+    color: #f8b700;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.3;
+    font-family: Semplicita;
+    color: #fff;
+    text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0, 0, 0, 0.8);
+    font-weight: 700;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.art-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-box-shadow: inset 0 -100px 100px -50px #000;
+    box-shadow: inset 0 -100px 100px -50px rgb(0, 0, 0);
+    padding-top: 90%;
+}
+
+.blizz-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    color: #ebdec2;
+    text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    padding: 0 50px;
+}
+
+button {
+    margin: 10px;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    border: none;
+    line-height: 1.5;
+    font-weight: 400;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid #000;
+}
+
+.masthead {
+    position: relative;
+}
+
+.masthead-button-inner {
+    border: 1px solid #c77e19;
+    padding: 15px 30px;
+    min-width: 150px;
+}
+
+.button-purchase {
+    background: rgba(159, 22, 0, 0.6);
+}
+
+.link-text {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: #f8b700;
+    text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0, 0, 0, 0.8);
+    align-self: center;
+    font-size: smaller;
+    font-family: Semplicita;
+}
+
+h1 {
+    font-size: 2.8rem;
+}
+
+.masthead-content {
+    position: relative;
+    margin: 0 auto;
+    z-index: 0;
+    padding-top: 38%;
+}
+
+.art-size {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.panel-box {
+    color: white;
+}
+
+.panel-box .title {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: Semplicita Pro, Open Sans, Arial, Helvetica, sans-serif;
+    color: #f8b700;
+    text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0, 0, 0, 0.8);
+    font-weight: 700;
+}
+
+.panel-box .subtitle {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    color: #ebdec2;
+    text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.panel-box .breadtext {
+    line-height: 1.5;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    color: #ebdec2;
+    text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+}
+
+.links {
+    align-items: center;
+}
+
+.links>div:nth-child(n + 2)::before {
+    content: "";
+    display: inline-block;
+    height: 10px;
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0 15px;
+    pointer-events: none;
+}
+
+.social-links-icon {
+    padding: 0 10px !important;
+    gap: 1rem;
+    font-size: 32px;
+}
+
+.footer {
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 30px 20px;
+    font-family: Open Sans, Helvetica, Arial, sans-serif;
+    background-image: url('https://assets.worldofwarcraft.com/static/components/Pane/Pane-dirtDark.ea235926d6487091ac2d6786fd7d2615.jpg');
+    background-position: top;
+    background-size: 200%;
+    background-repeat: repeat;
+}
+
+.copyright-text {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+white {
+    color: white;
+}
+
+.arrows {
+    fill: rgba(255, 255, 255, 0.5);
+    height: 16px;
+    width: 16px;
+}
+
+.globe {
+    fill: #00aeff;
+    height: 24px;
+    width: 24px;
+}
+
+.mobile {
+    fill: rgba(255, 255, 255, 0.5);
+    height: 24px;
+    width: 24px;
+}
+
+.bnet {
+    fill: #00aeff;
+    height: 24px;
+    width: 24px;
+}
+
+.grid-divider {
+    height: 4px;
+}
+
+.VideoPane-video {
+    display: none;
+}
+
+.bnet-container {
+    display: none;
+}
+
+.button-purchase {
+    border: 1px solid rgb(217, 31, 1);
+}
+
+.panel-box .title {
+    text-shadow: 0 0 1px transparent, 0 3px 2px rgba(0, 0, 0, 0.8);
+}
+
+.panel-box .breadtext {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.masthead-fallback-image {
+    padding-top: 90%;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    background-image: url('https://bnetcmsus-a.akamaihd.net/cms/template_resource/YMXU7CYT34VZ1650382032003.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}

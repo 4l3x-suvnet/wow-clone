@@ -1,0 +1,36 @@
+.xsmall-divider {
+    height: 4px;   
+}
+
+.small-divider {
+    height: 8px;   
+}
+
+.medium-divider {
+    height: 12px;   
+}
+
+.normal-divider {
+    height: 20px;   
+}
+.large-divider {
+    height: 40px;   
+}
+
+.xlarge-divider {
+    height: 60px;   
+}
+
+.xxlarge-divider {
+    height: 80px;   
+}
+
+.xxxlarge-divider {
+    height: 100px;   
+}
+
+@media screen and (max-width: 970px) {
+    .vid-space {
+        display: none;
+    }
+}

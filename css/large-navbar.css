@@ -1,0 +1,346 @@
+.large-navbar-container {
+  left: 0;
+  position: relative;
+  right: 0;
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1600px;
+  height: 60px;
+  transition: 1s ease all;
+}
+
+.large-navbar-content {
+  color: white;
+  position: relative;
+  height: 100%;
+  margin-left: 110px;
+}
+
+.large-navbar-logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.large-navbar-left {
+  position: absolute;
+  left: 100px;
+  top: 0;
+  height: 100%;
+  transition: 1s ease all;
+}
+
+.large-navbar-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+
+.navbar-items {
+  display: table;
+  position: relative;
+  height: 100%;
+}
+
+.menu-item {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 8px;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu-item:hover span {
+  color: white;
+  -webkit-text-fill-color: white;
+}
+
+.menu-item span {
+  font-weight: 700;
+  font-family: Semplicita;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(
+    top,
+    #efd100,
+    #e2a233 19%,
+    #f0c328 30%,
+    #fff1a3 43%,
+    #ffe13e 50%,
+    #fff 51%,
+    #fff
+  );
+  background-size: 1em 2.5em;
+  color: #f8b700;
+  display: inline-block;
+  line-height: 1.5em;
+  transition: 1s ease all;
+}
+
+.menu-item span::after {
+  background: none;
+  content: attr(data-text);
+  display: inline-block;
+  left: 0;
+  position: absolute;
+  text-shadow: 0 0 1px transparent, 0 1px 5px #000;
+  top: 0;
+  z-index: -1;
+}
+
+.navbar-menu-items {
+  display: table;
+  position: relative;
+  height: 100%;
+}
+
+.navbar-menu-items::before,
+.navbar-menu-items::after {
+  background: rgba(21, 13, 9, 0.8);
+  bottom: 1px;
+  content: "";
+  position: absolute;
+  left: -1px;
+  top: 1px;
+  width: 1px;
+}
+
+.navbar-menu-items::after {
+  background: rgba(68, 47, 38, 0.5);
+  left: auto;
+  right: -1px;
+}
+
+.menu-item::before,
+.menu-item::after {
+  background: rgba(68, 47, 38, 0.5);
+  bottom: 1px;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 1px;
+}
+
+.menu-item::after {
+  background: rgba(21, 13, 9, 0.8);
+  left: auto;
+  right: 0;
+}
+
+.menu-item-subscribe {
+  background: url("https://assets.worldofwarcraft.com/static/components/SiteNav/sitenav-bar-subscribe-bg.6ef1c2cfe9e3f89423dff886f2ebd801.webp");
+}
+.menu-item-try-free {
+  background: url("https://assets.worldofwarcraft.com/static/components/SiteNav/sitenav-bar-user-bg.3a65441e4e25dfdb4e66db98db267f3b.webp");
+}
+
+.menu-item-try-free::before,
+.menu-item-try-free::after,
+.menu-item-subscribe::after {
+  content: none;
+}
+
+.menu-item .item-new {
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 11px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-fill-color: #ff8500;
+  margin-top: -20px;
+  font-weight: 400;
+}
+
+.menu-item .navbar-arrow {
+  background-image: url("https://assets.worldofwarcraft.com/static/components/DropdownLink/DropdownLink-indicator-gold-sprite.380e7d876447864be9ecac8bf7764e22.png");
+  background-size: 400% 100%;
+  height: 11px;
+  left: -2px;
+  width: 16px;
+  display: inline-block;
+  margin-left: 0.35em;
+  position: relative;
+}
+
+.sticky {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.large-navbar-container,
+.large-navbar-bar {
+  height: 80px;
+}
+
+.large-logo {
+  background-image: url('https://assets.worldofwarcraft.com/static/components/Logo/Logo-wow-sitenav.596840db77b4d485a44d65e897e3de57.png');
+  width: 293px;
+  position: relative;
+  left: -195px;
+  top: -11px;
+  transition: 1s ease all;
+  background-size: cover;
+}
+
+.large-logo::after {
+  content: "";
+  display: block;
+  padding-top: 39.24914676%;
+}
+
+.small-logo {
+  background-image: url('https://assets.worldofwarcraft.com/static/components/Logo/Logo-wowIcon.01e2c443798558c38d8e3b143a6f0d03.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 5px;
+  left: 45px;
+  width: 40px;
+  transition: 1s ease all;
+  opacity: 0;
+}
+
+.small-logo::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.large-navbar-pane {
+  background: #211510
+    url('https://assets.worldofwarcraft.com/static/components/SiteNav/sitenav_bar_bg.1cca88a29ce01adda20ee8c950595c3e.webp')
+    repeat-x 80px 0;
+  height: 100%;
+  margin: 40px 30px 0;
+  margin-left: 115px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  transition: 0.5s ease all;
+}
+
+.sticky-fix {
+  margin: 0px;
+  margin-left: 0px;
+}
+
+.reset-margin {
+  margin: revert !important;
+}
+
+@media screen and (min-width: 970px) {
+  .compact-navbar {
+    display: none;
+  }
+}
+@media screen and (max-width: 969px) {
+  .large-navbar {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .large-logo {
+    opacity: 1;
+    display: none;
+  }
+}
+@media only screen and (min-width: 969px) and (max-width: 1080px) {
+  .large-logo {
+    opacity: 0;
+  }
+  .small-logo {
+    opacity: 1 !important;
+    left: -45px;
+  }
+
+  .large-navbar-left {
+    left: 0px;
+  }
+
+  .large-navbar-container {
+    height: 50px;
+  }
+
+  .menu-item span {
+    font-size: 0.8rem;
+  }
+
+  .large-navbar-content {
+    margin-left: 50px;
+  }
+
+  .large-navbar-pane {
+    margin-left: 20px;
+  }
+  .menu-item .item-new {
+    margin-top: -15px;
+  }
+}
+@media only screen and (min-width: 1080px) and (max-width: 1280px) {
+  .large-navbar-container {
+    height: 60px;
+  }
+  .large-navbar-left {
+    left: 30px;
+  }
+  .large-logo {
+    width: 219px;
+  }
+
+  .menu-item span {
+    font-size: 0.8rem;
+  }
+  .small-logo {
+    top: 5px;
+    left: -30px;
+    width: 50px;
+  }
+}
+@media only screen and (min-width: 1280px) and (max-width: 1450px) {
+  .large-navbar-container {
+    height: 65px;
+  }
+
+  .menu-item span {
+    font-size: 1rem;
+  }
+
+  .large-navbar-left {
+    left: 60px;
+  }
+
+  .large-logo {
+    width: 245px;
+  }
+
+  .small-logo {
+    top: 8px;
+    left: 0px;
+    width: 50px;
+    opacity: 0;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  .large-navbar-container {
+    height: 80px;
+  }
+
+  .menu-item span {
+    font-size: 1.2rem;
+  }
+
+  .small-logo {
+    top: 10px;
+    left: 20px;
+    width: 60px;
+    opacity: 0;
+  }
+}

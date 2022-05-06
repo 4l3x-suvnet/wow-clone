@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) {
+    
+.large-navbar {
+    display: block;
+    height: 40px;
+    background: #0b0d12;
+    font-size: 15px;
+    font-family: Open Sans;
+}
+
+.blizzard-logo {
+    fill: #00aeff;
+    width: 80px;
+    height: 100%;
+    display: inherit;
+    transition: 2s ease;
+    position: relative;
+    top: 3px;
+}
+
+.icon-arrow {
+    fill: rgba(255,255,255,.3);
+    height: 14px;
+    width: 14px;
+}
+}

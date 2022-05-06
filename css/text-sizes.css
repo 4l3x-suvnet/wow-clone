@@ -1,0 +1,53 @@
+@media screen and (min-width: 375px) {
+    .breadtext {
+        font-size: .95rem;
+    }
+    
+    .article .title
+    {
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 720px) {
+    .breadtext {
+        font-size: .95rem;
+    }    
+
+    .article .title
+    {
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .breadtext {
+        font-size: 1.15rem;
+    }
+        
+    .article .title
+    {
+        font-size: 3rem;
+    }
+    .masthead-content .blizz-text {
+        font-size: 1.5rem;
+    }
+}
+
+.guide .title {
+    font-size: 2rem;
+}
+.guide .breadtext {
+    font-size: .95rem;
+}
+
+@media screen and (min-width: 720px) {
+    .breadtext {
+      /* width: 90%; */
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .masthead-content .blizz-text {
+      font-size: 1.3rem;
+    }
+  }
+  

@@ -1,0 +1,258 @@
+.article {
+    border: 1px solid #504137;
+}
+
+.article-image {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    left: 0;
+}
+
+.button-container {
+    width: 120%;
+}
+
+.OneOfEight .article-image {
+    background-image: url('https://bnetcmsus-a.akamaihd.net/cms/template_resource/9PT44GO79ZI11651616708334.jpg');
+    background-position: 50% 50%;
+}
+
+.TwoOfEight .article-image {
+    background-image: url('https://bnetcmsus-a.akamaihd.net/cms/template_resource/IC6BX8KLLITN1649781770300.png');
+    background-position: 50% 50%;
+}
+
+.ThreeOfEight .article-image {
+    background-image: url('https://bnetcmsus-a.akamaihd.net/cms/template_resource/V2AZDTNK6U371645557399008.jpg');
+    background-position: 50% 50%;
+}
+
+.FourOfEight .article-image {
+    background-image: url('https://bnetcmsus-a.akamaihd.net/cms/template_resource/LPQ2UZCZ5C5C1643131445223.png');
+    background-position: 50% 50%;
+}
+
+.FiveOfEight .article-image {
+    background-image: url('https://bnetcmsus-a.akamaihd.net/cms/template_resource/BQS2NO2GNOID1636671079429.jpg');
+    background-position: 50% 50%;
+}
+
+.SixOfEight .article-image {
+    background-image: url('https://bnetcmsus-a.akamaihd.net/cms/template_resource/AO46ZIHLIQD31635275915817.jpg');
+    background-position: 50% 50%;
+}
+
+.SevenOfEight .article-image {
+    background-image: url('https://bnetcmsus-a.akamaihd.net/cms/template_resource/e0/E05HQYQ5JP6G1574128274055.jpg');
+    background-position: 50% 50%;
+}
+
+.EightOfEight .article-image {
+    background-image: url('https://bnetcmsus-a.akamaihd.net/cms/template_resource/8CYVIMJNXFNZ1606119674398.jpg');
+    background-position: 50% 50%;
+}
+
+.article-container {
+    position: relative;
+    padding-top: 50%;
+}
+
+.panel-box-content {
+    padding: 20px 10%;
+    background: #211510 url('https://assets.worldofwarcraft.com/static/components/Panel/Panel-bg-stacked.18def74ed60ab9f1f4139f87349d2f79.jpg') 0 0;
+    border-top: 1px solid #504137;
+}
+
+.button-container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 15px;
+    flex-wrap: wrap;
+}  
+
+    @media only screen and (min-width: 980px)
+    {
+        /* RECRUIT A FRIEND SECTION BEHAVIOUR */
+        .SevenOfEight .panel-box {
+            justify-content: end;
+        }
+        
+        .SevenOfEight .panel-box .panel-box-content .title {
+            width: 100%;
+        }
+
+        .SevenOfEight .panel-box .panel-box-content .subtitle, .SevenOfEight .panel-box .panel-box-content .title, .SevenOfEight .panel-box .panel-box-content .breadtext  {
+            text-align: right !important;
+        }
+        
+        .SevenOfEight .panel-box .panel-box-content .button-container {
+            justify-content: end;
+        }
+
+
+        .article {
+            position: relative;
+        }
+
+        .article-container {
+            padding-top: 30%;
+        }
+        
+        /* Set background individually for every article */
+        .OneOfEight .article-image {
+            background-image: url('https://bnetcmsus-a.akamaihd.net/cms/template_resource/8QSYJYIUCWVL1651616704229.jpg');
+            background-position: 55% 50%;
+        }
+        
+        .TwoOfEight .article-image {
+            background-image: url('https://bnetcmsus-a.akamaihd.net/cms/template_resource/X7MSA0VYMJ5C1649781770293.png');
+            background-position: 55% 50%;
+        }
+        
+        .ThreeOfEight .article-image {
+            background-image: url('https://bnetcmsus-a.akamaihd.net/cms/template_resource/QBB8FOCYHIJH1645557399036.jpg');
+            background-position: 55% 50%;
+        }
+
+        .FourOfEight .article-image {
+            background-image: url('https://bnetcmsus-a.akamaihd.net/cms/template_resource/MXPT7QDRA1FI1643131421634.png');
+            background-position: 55% 50%;            
+        }
+        
+        .FiveOfEight .article-image {
+            background-image: url('https://bnetcmsus-a.akamaihd.net/cms/template_resource/ON3ZFILBWDPF1636669822904.jpg');
+            background-position: 55% 50%;            
+        }
+        
+        .SixOfEight .article-image {
+            background-image: url('https://bnetcmsus-a.akamaihd.net/cms/template_resource/2EV7X4AJDZSX1635275922909.jpg');
+            background-position: 55% 50%;            
+        }
+        
+        .SevenOfEight .article-image {
+            background-image: url('https://bnetcmsus-a.akamaihd.net/cms/template_resource/46/46OSV36CIXTP1574128358849.jpg');
+            background-position: 35% 50%;            
+        }
+
+        .EightOfEight .article-image {
+            background-image: url('https://bnetcmsus-a.akamaihd.net/cms/template_resource/GFPJZPVBG5U81606119674432.jpg');
+            background-position: 55% 50%;            
+        }
+
+        .SevenOfEight .breadtext {
+            padding-left: 10%;
+        }
+        
+        .SixOfEight .breadtext, .FiveOfEight .breadtext, .ThreeOfEight .breadtext, .OneOfEight .breadtext, .EightOfEight .breadtext {
+            padding-right: 150px;
+        }
+
+        .article .panel-box {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 10%;
+            left: 10%;
+            align-items: center;
+            display: flex;
+        }
+
+        .panel-box-content {
+            background: transparent;
+            border: none;
+            max-width: 55%;
+            text-align: left;
+            position: relative;
+            top: 0;
+            left: 0;
+            height: fit-content;
+            padding: 20px 0;
+        }
+
+        .article .divider {
+            height: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: start;
+            position: relative;
+            left: -10px;
+            top: 0;
+            margin: 0;
+        }
+
+        .article .panel-box .title {
+            width: 175%;
+            font-size: 3rem;
+        }
+
+        .article .breadtext {
+            padding-bottom: 3%;
+        }
+
+    }
+
+    @media screen and (min-width: 980px) and (max-width: 1280px)
+    {
+        .article-container {
+            padding-top: 40%;
+        }
+
+        .article-image-container {
+            background-position: 50% 50%;
+        }
+    }
+
+    @media screen and (min-width: 1280px)
+    {
+        .article-container {
+            padding-top: 30%;
+        }
+
+        .article-image-container {
+            background-position: 50% 50%;
+        }
+    }
+
+    @media screen and (min-width: 1700px)
+    {
+        .article-container {
+            padding-top: 25%;
+        }
+    }
+
+    
+    @media only screen and (min-width: 980px) {
+      .OneOfEight .article-image {
+        background-position: 45% 50%;
+      }
+      .FourOfEight .article-image {
+        background-position: 66% 50%;
+      }
+      .SevenOfEight .article-image {
+    
+        background-position: 40% 50%;
+      }
+      .SevenOfEight .button-container {
+        left: 0px;
+        width: 100%;
+        margin-right: 0px;
+      }
+    }
+
+    @media only screen and (max-width: 980px) {
+        .button-container {
+            width: 100%;
+        }
+
+    }
+
+    .button-container {
+        margin: 0px;
+    }
